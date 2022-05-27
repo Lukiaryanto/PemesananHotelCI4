@@ -1,0 +1,272 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {   
+
+    div#section1 {
+        padding-top: 96px;
+    }
+
+}
+
+/* Laptop Device :1366px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    div#section1 {
+        padding-top: 96px;
+    }
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .myContainerAbs {
+        position: absolute;
+        /* top: 0px; */
+        bottom: 80px;
+        background: #333333e6;
+        padding: 20px;
+        /* left: 20%; */
+        /* right: 20%; */
+    }
+
+    div#section1 {
+        padding-top: 96px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: #333;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        color: #fff;
+        background: #fff;
+    }
+    div#section1 {
+        padding-top: 135px;
+    }
+
+    #section1 .carousel-indicators {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+
+    #section2 .carousel-indicators {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+
+    #section2 .left.carousel-control {
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        left: 30px;
+        width: 5%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+    
+    #section2 .right.carousel-control {
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        width: 5%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+        right: 30px !important;
+    }
+
+    .myContainerAbs {
+        position: relative;
+        background: #333333e6;
+        padding: 20px;
+        display: block;
+        width: 100%;
+        bottom: 0px;
+
+    }
+
+    .centerMobil{
+        text-align: center;
+    }
+
+
+    .myCaption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px;
+        top: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        /* font-family: MONOSPACE; */
+    }
+
+    .backGroundImage {
+        padding-top: 15px;
+    }
+
+    #carousel-example-generic-main {
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: #333;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        color: #fff;
+        background: #fff;
+    }
+
+    #section1 .carousel-indicators {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+
+    
+    #section2 .carousel-indicators {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        z-index: 15;
+        width: 60%;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+
+    #section2 .left.carousel-control {
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        left: 30px;
+        width: 5%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+    
+    #section2 .right.carousel-control {
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        width: 5%;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        background-color: rgba(0,0,0,0);
+        filter: alpha(opacity=50);
+        opacity: .5;
+        right: 30px !important;
+    }
+
+    .centerMobil{
+        text-align: center;
+    }
+    
+    .myContainerAbs {
+        position: relative;
+        background: #333333e6;
+        padding: 20px;
+        display: block;
+        width: 100%;
+        bottom: 0px;
+
+    }
+
+    div#section1 {
+        padding-top: 135px;
+    }
+    .myCaption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px;
+        top: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        /* font-family: MONOSPACE; */
+    }
+
+    .backGroundImage {
+        padding-top: 15px;
+    }
+
+    #carousel-example-generic-main {
+        margin-top: 0px;
+    }
+
+}
